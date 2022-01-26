@@ -1,5 +1,5 @@
 # Minecraft Refrigerator Mod
-By me lmao
+
 WIP
 
 
