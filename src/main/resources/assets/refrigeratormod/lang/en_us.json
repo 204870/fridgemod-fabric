@@ -1,3 +1,5 @@
 {
-  "item.refrigeratormod.refrigerator": "Refrigerator"
+  "item.refrigeratormod.refrigerator_door": "Refrigerator Door",
+
+  "block.refrigeratormod.refrigerator_block": "Refrigerator"
 }

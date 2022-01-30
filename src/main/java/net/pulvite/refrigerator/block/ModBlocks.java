@@ -14,7 +14,7 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block REFRIGERATOR_BLOCK = registerBlock("refrigerator_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ItemGroup.MISC);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
@@ -28,6 +28,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        refrigeratormod.LOGGER.info("Registering ModBlocks for " + refrigeratormod.MOD_ID);
+        refrigeratormod.LOGGER.info("Registering Mod Blocks for refrigeratormod");
     }
 }

@@ -8,7 +8,7 @@ import net.minecraft.util.registry.Registry;
 import net.pulvite.refrigerator.refrigeratormod;
 
 public class ModItems {
-    public static final Item REFRIGERATOR = registerItem("refrigerator", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item REFRIGERATOR_DOOR = registerItem("refrigerator_door", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(refrigeratormod.MOD_ID, name), item);
