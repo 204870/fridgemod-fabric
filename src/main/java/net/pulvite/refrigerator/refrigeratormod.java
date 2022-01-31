@@ -1,6 +1,7 @@
 package net.pulvite.refrigerator;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.block.Block;
 import net.pulvite.refrigerator.block.ModBlocks;
 import net.pulvite.refrigerator.item.ModItems;
 import org.slf4j.Logger;
