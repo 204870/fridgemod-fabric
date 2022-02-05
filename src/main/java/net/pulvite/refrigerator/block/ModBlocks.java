@@ -19,7 +19,8 @@ public class ModBlocks {
 
     public static final Block REFRIGERATOR = registerBlock("refrigerator",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool()), ItemGroup.MISC);
-    public static final BlockEntityType REFRIGERATOR_BLOCK_ENTITY = Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(MOD_ID, "Refrigerator"), BlockEntityType.Builder.create(RefrigeratorBlockEntity::new, REFRIGERATOR).build(null));;
+    public static final BlockEntityType REFRIGERATOR_BLOCK_ENTITY = Registry.register(Registry.BLOCK_ENTITY_TYPE, new Identifier(MOD_ID, "Refrigerator"), BlockEntityType.Builder.create(RefrigeratorBlockEntity::new, REFRIGERATOR).build(null));
+
 
 
 
