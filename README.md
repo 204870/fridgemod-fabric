@@ -1,4 +1,4 @@
-# Minecraft Refrigerator Mod
+# Minecraft Bitter Cold Mod
 
 WIP
 
