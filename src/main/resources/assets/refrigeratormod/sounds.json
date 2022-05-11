@@ -1,0 +1,10 @@
+{
+  "watch_out": {
+    "sounds": [
+      {
+        "name": "refrigeratormod:watch_out",
+        "stream": true
+      }
+    ]
+  }
+}
