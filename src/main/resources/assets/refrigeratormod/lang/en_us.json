@@ -2,6 +2,9 @@
   "item.refrigeratormod.refrigerator_door": "Refrigerator Door",
   "item.refrigeratormod.frozen_sword": "Frozen Sword",
   "item.refrigeratormod.frozen_pickaxe": "Frozen Pickaxe",
+  "item.refrigeratormod.frozen_axe": "Frozen Axe",
+  "item.refrigeratormod.frozen_hoe": "Frozen Hoe",
+  "item.refrigeratormod.frozen_shovel": "Frozen Shovel",
 
   "item.refrigeratormod.watch_out_music_disc": "Music Disc",
   "item.refrigeratormod.watch_out_music_disc.desc": "NetroAki & Adrien Heart - Watch Out"

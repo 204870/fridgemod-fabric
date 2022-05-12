@@ -7,8 +7,7 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.pulvite.refrigerator.item.custom.ModMusicDiscItem;
-import net.pulvite.refrigerator.item.custom.ModPickaxeItem;
+import net.pulvite.refrigerator.item.custom.*;
 import net.pulvite.refrigerator.refrigeratormod;
 import net.pulvite.refrigerator.sound.ModSounds;
 
@@ -22,6 +21,12 @@ public class ModItems {
             new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item FROZEN_PICKAXE = registerItem("frozen_pickaxe", new ModPickaxeItem(ModToolMaterials.ICE,1, 0f,
+            new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item FROZEN_AXE = registerItem("frozen_axe", new ModAxeItem(ModToolMaterials.ICE,5, -1f,
+            new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item FROZEN_HOE = registerItem("frozen_hoe", new ModHoeItem(ModToolMaterials.ICE,3, 0.5f,
+            new FabricItemSettings().group(ItemGroup.TOOLS)));
+    public static final Item FROZEN_SHOVEL = registerItem("frozen_shovel", new ModShovelItem(ModToolMaterials.ICE,0, 0.5f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
 
     //music discs

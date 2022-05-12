@@ -20,7 +20,7 @@ Reference tool materials
     NETHERITE(MiningLevels.NETHERITE, 2031, 9.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
  */
-    ICE(MiningLevels.DIAMOND, 48, 10.0f, 1.0f, 20, () -> Ingredient.ofItems(Items.BLUE_ICE));
+    ICE(MiningLevels.DIAMOND, 48, 9.0f, 1.0f, 20, () -> Ingredient.ofItems(Items.BLUE_ICE));
 
     private final int miningLevel;
     private final int itemDurability;
