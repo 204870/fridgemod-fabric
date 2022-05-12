@@ -22,15 +22,17 @@ public class ModItems {
 
     public static final Item FROZEN_PICKAXE = registerItem("frozen_pickaxe", new ModPickaxeItem(ModToolMaterials.ICE,1, 0f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item FROZEN_AXE = registerItem("frozen_axe", new ModAxeItem(ModToolMaterials.ICE,5, -1f,
+    public static final Item FROZEN_AXE = registerItem("frozen_axe", new ModAxeItem(ModToolMaterials.ICE,3, -1f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item FROZEN_HOE = registerItem("frozen_hoe", new ModHoeItem(ModToolMaterials.ICE,3, 0.5f,
+    public static final Item FROZEN_HOE = registerItem("frozen_hoe", new ModHoeItem(ModToolMaterials.ICE,0, 0.5f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FROZEN_SHOVEL = registerItem("frozen_shovel", new ModShovelItem(ModToolMaterials.ICE,0, 0.5f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
 
     //music discs
     public static final Item WATCH_OUT_MUSIC_DISC = registerItem("watch_out_music_disc", new ModMusicDiscItem(7, ModSounds.WATCH_OUT,
+            new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item CREEP_MUSIC_DISC = registerItem("creep_music_disc", new ModMusicDiscItem(7, ModSounds.CREEP,
             new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
 
