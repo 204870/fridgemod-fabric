@@ -14,5 +14,13 @@
         "stream": true
       }
     ]
+  },
+  "north_pole": {
+    "sounds": [
+      {
+        "name": "refrigeratormod:north_pole",
+        "stream": true
+      }
+    ]
   }
 }

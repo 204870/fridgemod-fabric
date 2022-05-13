@@ -11,6 +11,7 @@ import net.minecraft.util.registry.Registry;
 public class ModSounds {
     public static SoundEvent WATCH_OUT = registerSoundEvent("watch_out");
     public static SoundEvent CREEP = registerSoundEvent("creep");
+    public static SoundEvent NORTH_POLE = registerSoundEvent("north_pole");
     public static SoundEvent MUSIC_COLD = registerSoundEvent("music_cold1");
 
     private static SoundEvent registerSoundEvent(String name){

@@ -34,6 +34,8 @@ public class ModItems {
             new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
     public static final Item CREEP_MUSIC_DISC = registerItem("creep_music_disc", new ModMusicDiscItem(7, ModSounds.CREEP,
             new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
+    public static final Item NORTH_POLE_MUSIC_DISC = registerItem("north_pole_music_disc", new ModMusicDiscItem(7, ModSounds.NORTH_POLE,
+            new FabricItemSettings().group(ItemGroup.MISC).maxCount(1)));
 
 
 
