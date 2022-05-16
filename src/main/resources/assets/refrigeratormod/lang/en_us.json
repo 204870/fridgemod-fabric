@@ -11,7 +11,10 @@
   "item.refrigeratormod.creep_music_disc": "Music Disc",
   "item.refrigeratormod.creep_music_disc.desc": "Antrym - Creep [edit]",
   "item.refrigeratormod.north_pole_music_disc": "Music Disc",
-  "item.refrigeratormod.north_pole_music_disc.desc": "JJRicks - North Pole Express [cover]"
+  "item.refrigeratormod.north_pole_music_disc.desc": "JJRicks - North Pole Express [cover]",
+
+
+  "block.refrigeratormod.refined_ice": "Refined Ice"
 
 
 }

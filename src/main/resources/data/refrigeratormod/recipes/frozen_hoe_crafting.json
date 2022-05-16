@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "X": {
+      "item": "refrigeratormod:refined_ice"
+    }
+  },
+  "result": {
+    "item": "refrigeratormod:frozen_hoe"
+  }
+}

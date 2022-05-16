@@ -1,7 +1,7 @@
 package net.pulvite.refrigerator;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.block.Block;
+import net.pulvite.refrigerator.block.ModBlocks;
 import net.pulvite.refrigerator.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,5 +21,6 @@ public class refrigeratormod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

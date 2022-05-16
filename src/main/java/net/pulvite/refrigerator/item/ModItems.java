@@ -17,14 +17,14 @@ public class ModItems {
     public static final Item REFRIGERATOR_DOOR = registerItem("refrigerator_door", new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
     //tools
-    public static final Item FROZEN_SWORD = registerItem("frozen_sword", new SwordItem(ModToolMaterials.ICE,2, 1f,
+    public static final Item FROZEN_SWORD = registerItem("frozen_sword", new SwordItem(ModToolMaterials.ICE,2, 0f,
             new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item FROZEN_PICKAXE = registerItem("frozen_pickaxe", new ModPickaxeItem(ModToolMaterials.ICE,1, 0f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FROZEN_AXE = registerItem("frozen_axe", new ModAxeItem(ModToolMaterials.ICE,3, -1f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
-    public static final Item FROZEN_HOE = registerItem("frozen_hoe", new ModHoeItem(ModToolMaterials.ICE,0, 0.5f,
+    public static final Item FROZEN_HOE = registerItem("frozen_hoe", new ModHoeItem(ModToolMaterials.ICE,1, 0.5f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
     public static final Item FROZEN_SHOVEL = registerItem("frozen_shovel", new ModShovelItem(ModToolMaterials.ICE,0, 0.5f,
             new FabricItemSettings().group(ItemGroup.TOOLS)));
@@ -44,7 +44,7 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        refrigeratormod.LOGGER.info("Registering Mod Items for refrigeratormod");
+        refrigeratormod.LOGGER.info("Registering Mod Items for " + refrigeratormod.MOD_ID);
     }
 
 }
