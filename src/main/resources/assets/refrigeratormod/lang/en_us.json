@@ -14,7 +14,8 @@
   "item.refrigeratormod.north_pole_music_disc.desc": "JJRicks - North Pole Express [cover]",
 
 
-  "block.refrigeratormod.refined_ice": "Refined Ice"
+  "block.refrigeratormod.refined_ice": "Refined Ice",
+  "block.refrigeratormod.refrigerator": "Refrigerator"
 
 
 }

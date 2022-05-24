@@ -14,9 +14,12 @@ import net.pulvite.refrigerator.refrigeratormod;
 
 public class ModBlocks {
 
-
+//blocks materials
     public static final Block REFINED_ICE = registerBlock("refined_ice",
-            new Block(FabricBlockSettings.of(Material.STONE).nonOpaque().slipperiness(1.25f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().hardness(25.0f).resistance(600.0f)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).nonOpaque().slipperiness(1.05f).sounds(BlockSoundGroup.AMETHYST_BLOCK).requiresTool().hardness(2.0f).resistance(6.0f)), ItemGroup.BUILDING_BLOCKS);
+//blocks refrigerator
+    public static final Block REFRIGERATOR = registerBlock("refrigerator",
+        new Block(FabricBlockSettings.of(Material.METAL).sounds(BlockSoundGroup.ANVIL).luminance(9)), ItemGroup.MISC);
 
     /*
     public static final Block ICE = Blocks.register("ice",

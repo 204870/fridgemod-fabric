@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "refrigeratormod:block/refrigerator_top",
+    "front": "refrigeratormod:block/refrigerator_front",
+    "side": "refrigeratormod:block/refrigerator_side"
+  }
+}
